@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+nohup.out
+
+# Conda / env
+env/
+venv/
+.venv/
+
+# Large MD / simulation files
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+
+# Backup / temp
+*~
+*.bak
+tmp/
+temp/
+
+# Figure source caches
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Optional: ignore very large raw data folders
+raw_data/
+trajectories/
